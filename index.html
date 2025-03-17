@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS - ROCK PAPER SCISSORS</title>
+  </head>
+  <body>
+    <h1 class="heading">ROCK PAPER SCISSOR</h1>
+    <div class="main-div">
+      <div class="left-div">
+        <h2 class="heading2">Player</h2>
+        <button class="player"><img src="./paper.png" alt="" /></button
+        ><button class="player"><img src="./scissor.png" alt="" /></button>
+        <button class="player"><img src="./rock.png" alt="" /></button>
+      </div>
+      <div class="mid-div">
+        <div class="clash-container">
+          <img src="./rock.png" alt="" class="user-choice" />
+          <img src="./rock.png" alt="" class="cpu-choice" />
+        </div>
+
+        <h2 class="winner">WINNER</h2>
+      </div>
+      <div class="right-div">
+        <h2 class="heading2">CPU</h2>
+
+        <button class="cpu"><img src="./paper.png" alt="" /></button
+        ><button class="cpu"><img src="./scissor.png" alt="" /></button>
+        <button class="cpu"><img src="./rock.png" alt="" /></button>
+      </div>
+    </div>
+    <div class="score">
+      <p class="user-score2">USER Score : <span class="user-score">0</span></p>
+      <p class="cpu-score2">CPU Score : <span class="cpu-score">0</span></p>
+    </div>
+    <!-- <button class="reset-btn">RESET</button> -->
+    <script src="main.js"></script>
+  </body>
+</html>
